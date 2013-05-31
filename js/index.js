@@ -1,4 +1,12 @@
 $(document).ready(function() {
+    
+    alert("ae 2");
+    
+});
+
+
+alert("ae!");
+    
     // In the callback you can use "this" to call a function (e.g. this.get('map') instead of $('#map_canvas').gmap('get', 'map'))
     $('#map_canvas').gmap({
         'callback' : function() {
@@ -14,6 +22,3 @@ $(document).ready(function() {
             });
         }
     });
-    
-    
-});
