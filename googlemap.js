@@ -1,6 +1,7 @@
 function GoogleMap() {
 
     this.initialize = function() {
+        alert("ae");
         var map = showMap();
         addMarkersToMap(map);
     }
